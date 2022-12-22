@@ -1,6 +1,9 @@
 # goslowc2
 A demonstration of using GoLang and GCP Storage for a quick and easy evasion payload.
 
+### Walkthrough
+For a walkthrough of using this solution. Please visit the accompanying post: [Red Team Payload with Go and GCP](https://blog.scalesec.com/x-8123db77d2f)
+
 ### Why?
 1. Found GoLang is not as widely supported for reverse engineering tools without plugins or some tuning which also infers that EDR platforms haven't caught up as much either
 2. GoLang allows the advantage memory handling and type handling of scripting language but the performance of a compiled language because you can 'go build foo.go' something
@@ -15,7 +18,9 @@ This module is to demonstrate using os.exec to wrap and execute another Go scrip
 
 ## Code Setup
 go mod init goslowc2/main
+
 go get cloud.google.com/storage
+
 go build goslowc2
 
 ## GCP Storage bucket setup
