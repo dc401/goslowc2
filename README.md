@@ -2,7 +2,7 @@
 A demonstration of using GoLang and GCP Storage for a quick and easy evasion payload.
 
 ### Walkthrough
-For a walkthrough of using this solution. Please visit the accompanying post: [Red Team Payload with Go and GCP](https://blog.scalesec.com/x-8123db77d2f)
+For a walkthrough of using this solution. Please visit the accompanying post: [Red Team Payload with Go and GCP](https://medium.com/scalesec/x-8123db77d2f)
 
 ### Why?
 1. Found GoLang is not as widely supported for reverse engineering tools without plugins or some tuning which also infers that EDR platforms haven't caught up as much either
